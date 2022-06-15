@@ -29,7 +29,7 @@ export default function Inicio() {
       <div className="div">
         <h1>LA CALLE ANDA DICIENDO</h1>
         <input type="input" className="input" placeholder="Frase..." />
-        <button type="submit" className="button" onClick={buscar}> Login </button>
+        <button type="submit" className="button" onClick={() => buscar()}> Login </button>
       </div>
       </div>
 
